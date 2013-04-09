@@ -14,7 +14,7 @@ setup(
     url="http://github.com/alikins/json_pretty",
     packages=["json_pretty"],
     install_requires=[
-        "pygments",
+        "pygments == 1.6",
     ],
     entry_points={
         'console_scripts': ['json_pretty = json_pretty.json_pretty:main'],
